@@ -1,0 +1,516 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#aprilia {
+    display: flex;
+    background-color: black;
+    color: #ee1c25;
+    border-top: 10px double white;
+    border-bottom: 10px double white;
+    letter-spacing: -1px;
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+#aprilia:hover {
+    color: white;
+    border-top: 10px double #ee1c25;
+    border-bottom: 10px double #ee1c25;
+    text-shadow: 5px 5px 10px #ee1c25;
+}
+
+#container {
+    display: flex;
+    height: 70px;
+    background-color: #ee1c25;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home,
+.about,
+.product,
+.contact {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin: 10px 20px 10px 5px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition-duration: 0.5s;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.home:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 20px black;
+}
+
+.product:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 20px black;
+}
+
+.about:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 20px black;
+}
+
+.contact:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 20px black;
+}
+
+.bg{
+    border: 2px solid white;
+    width: 100%;
+    height: 900px;
+    background: url(images/rs_457_bg_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: blur(4px);
+    transition-duration: 1s;
+}
+.bg:hover{
+    filter: none;
+}
+.h1aprilia{
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: -4px;
+    text-shadow: 0.7px 0.7px 2px black;
+    transition-duration: 0.5s;
+}
+.h1aprilia:hover{
+    font-size: 130px;
+}
+.prod{
+    color: white;
+    background-color: #ee1c25;
+    border-top: 10px double black;
+    border-bottom: 10px double black;
+    letter-spacing: -1px;
+    font-size: 25px;
+    height: 65px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.prod:hover{
+    background-color: black;
+    color: #ee1c25;
+    border-top: 10px double white;
+    border-bottom: 10px double white;
+    text-shadow: 1px 1px 20px white;
+}
+
+#Products{
+    background-color: black;
+    display: flex;
+    color:white;
+    align-items: center;
+}
+.box1{
+    background-color: black;
+    border: 2px solid black;
+    height: 490px;
+    width: 750px;
+    align-self: center;
+    overflow: hidden;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+.box1:hover{
+    flex-shrink: 0;
+    width: 1100px;
+}
+
+.box2{
+    background-color: black;
+    border: 2px solid black;
+    height: 490px;
+    width: 750px;
+    align-self: center;
+    overflow: hidden;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+
+.box2:hover{
+    flex-shrink: 0;
+    width: 1070px;
+}
+
+.box3{
+    background-color: black;
+    border: 2px solid black;
+    height: 490px;
+    width: 750px;
+    align-self: center;
+    overflow: hidden;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    letter-spacing: -1.5px;
+}
+
+.box3:hover{
+    flex-shrink: 0;
+    width: 1100px;
+}
+
+.rs457_p{
+    height: 410px;
+    transition: 0.5s;
+}
+
+.rs660_p{
+    height: 410px;
+}
+
+.rsv4_p{
+    height: 400px;
+}
+.head1{
+    position: relative;
+    font-size: 40px;
+    left: 140px;
+    bottom: 10px
+}
+.head5{
+    position: relative;
+    font-size: 40px;
+    left: 160px;
+    bottom: 8px
+}
+.head3{
+    position: relative;
+    font-size: 40px;
+    left: 160px;
+    bottom: 10px
+}
+.p1{
+    position: relative;
+    color: white;
+    left: 685px;
+    bottom: 350px;
+    font-size: 25px;
+}
+.p2{
+    position: relative;
+    color: white;
+    left: 685px;
+    bottom: 385px;
+    font-size: 25px;
+}
+.p3{
+    position: relative;
+    color: white;
+    left: 685px;
+    bottom: 390px;
+    font-size: 25px;
+}
+.head2{
+    position: relative;
+    border: 2px solid white;
+    background-color: #ee1c25;
+    height: 45px;
+    width: 225px;
+    font-size: 40px;
+    color: white;
+    bottom: 350px;
+    left: 683px;
+    transition-duration: 0.7s;
+}
+.head2:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px 20px #ee1c25;
+}
+.head4{
+    position: relative;
+    border: 2px solid white;
+    background-color: #ee1c25;
+    height: 45px;
+    width: 250px;
+    font-size: 40px;
+    color: white;
+    bottom: 390px;
+    left: 683px;
+    transition: 1s;
+}
+.head4:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px 20px #ee1c25;
+}
+.head6{
+    position: relative;
+    border: 2px solid white;
+    background-color: #ee1c25;
+    height: 45px;
+    width: 250px;
+    font-size: 40px;
+    color: white;
+    bottom: 390px;
+    left: 683px;
+    transition: 1s;
+}
+.head6:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 1px 1px 20px #ee1c25;
+}
+footer{
+    background-color: black;
+    color:white;
+    font-family: "Rubik", sans-serif;
+}
+#About {
+    color: white;
+    background-color: #ee1c25;
+    border-top: 10px double black;
+    border-bottom: 10px double black;
+    letter-spacing: -1px;
+    font-size: 25px;
+    height: 60px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+#About h1{
+    transition: 0.5s;
+}
+#About h1:hover{
+    background-color: black;
+    color: #ee1c25;
+    border-top: 10px double white;
+    border-bottom: 10px double white;
+    text-shadow: 1px 1px 20px white;
+}
+#About p{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+/* MEDIA SCREEN CHANGES START FROM HERE*/
+
+@media screen and (max-width:700px){
+    #aprilia {
+        display: flex;
+        background-color: black;
+        color: #ee1c25;
+        border-top: 10px double white;
+        border-bottom: 10px double white;
+        letter-spacing: -1px;
+        font-size: 30px;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: bold;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+        transition-duration: 1s;
+    }
+    
+    #aprilia:hover {
+        color: white;
+        border-top: 10px double #ee1c25;
+        border-bottom: 10px double #ee1c25;
+        text-shadow: 5px 5px 10px #ee1c25;
+    }
+
+    #container {
+        display: flex;
+        height: 50px;
+        background-color: #ee1c25;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .home,
+    .about,
+    .product,
+    .contact {
+        width: 70px;
+        height: 30px;
+        display: flex;
+        font-size: 15px;
+        align-items: center;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        margin: 10px 20px 10px 5px;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        transition-duration: 0.5s;
+    }
+
+    .bg{
+        border: 2px solid white;
+        width: auto;
+        height: 900px;
+        background: url(images/rs_457_bg_3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        filter: blur(4px);
+        transition-duration: 1s;
+    }
+    .h1aprilia{
+        font-size: 80px;
+        text-align: center;
+    }
+    .h1aprilia:hover{
+        font-size: 70px;
+    }
+    .prod{
+        font-size: 20px;
+        height: 45px;
+    }
+    #Products{
+        display: grid;
+    }
+    .rs457_p{
+        height: 300px;
+        left: 420px;
+    }
+    .box1{
+        height: 400px;
+        width: auto;
+    }
+    .box1:hover{
+        height: 800px;
+    }
+    .head1{
+        font-size: 30px;
+        left: 130px;
+    }
+    .p1{
+        color: white;
+        font-size: 20px;
+        left: 30px;
+        top: 80px;
+    }
+    .head2{
+        height: 35px;
+        font-size: 30px;
+        text-align: center;
+        left: 30px;
+        top: 90px;
+    }
+
+    .rs660_p{
+        height: 300px;
+    }
+    .box2{
+        height: 400px;
+        width: auto;
+    }
+    .box2:hover{
+        height: 900px;
+    }
+    .head3{
+        font-size: 30px;
+        left: 130px;
+    }
+    .p2{
+        color: white;
+        font-size: 20px;
+        left: 30px;
+        top: 80px;
+    }
+    .head4{
+        height: 35px;
+        font-size: 30px;
+        text-align: center;
+        left: 30px;
+        top: 90px;
+    }
+
+    .rsv4_p{
+        height: 300px;
+    }
+    .box3{
+        height: 400px;
+        width: auto;
+    }
+    .box3:hover{
+        height: 800px;
+    }
+    .p3{
+        color: white;
+        font-size: 20px;
+        left: 30px;
+        top: 80px;
+    }
+    .head5{
+        font-size: 30px;
+        left: 130px;
+    }
+    .head6{
+        height: 35px;
+        font-size: 30px;
+        text-align: center;
+        left: 30px;
+        top: 90px;
+    }
+
+    #About h1{
+        font-size: 25px;
+    }
+    #About p{
+        font-size: 18px;
+    }
+}
